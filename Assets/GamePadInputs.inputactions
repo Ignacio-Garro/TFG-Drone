@@ -1,0 +1,135 @@
+{
+    "version": 1,
+    "name": "GamePadInputs",
+    "maps": [
+        {
+            "name": "DroneControllerGamepad",
+            "id": "6bb7256d-361d-4ff9-aad7-80186a3e7c60",
+            "actions": [
+                {
+                    "name": "L Move",
+                    "type": "Value",
+                    "id": "f589a160-832c-4991-a388-418a7d09266f",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "R Move",
+                    "type": "Value",
+                    "id": "95932085-c345-45da-ab3c-2fddeb51b2a8",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Button Cross",
+                    "type": "Button",
+                    "id": "8878e9d1-834a-48f3-bfb0-4f711d3af3a0",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Button Triangle",
+                    "type": "Button",
+                    "id": "a7397a97-85fd-4c3a-b60b-5a8f1df82148",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Button Circle",
+                    "type": "Button",
+                    "id": "3f6f2939-5cff-4ae2-8fd7-2c7260ce83c6",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Button Square",
+                    "type": "Button",
+                    "id": "8d0b425b-efcb-4b5b-a72a-944e8593d54d",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "7b568e47-11c2-416a-996d-5459b7136d84",
+                    "path": "<DualShockGamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "L Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "30ef078e-c97c-4d45-bbc6-a6164cfbffe0",
+                    "path": "<DualShockGamepad>/rightStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "R Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "702ccebc-fa07-489b-8f5d-9f0a3bdeb76f",
+                    "path": "<DualShockGamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Button Cross",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "39b02f96-1a01-4a57-9c44-0dbce11d49a9",
+                    "path": "<DualShockGamepad>/buttonNorth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Button Triangle",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3e1d56cf-3fec-4c43-8db0-fae236c38bcb",
+                    "path": "<DualShockGamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Button Circle",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f93749b6-10f0-4601-be1c-79544ccc9a31",
+                    "path": "<DualShockGamepad>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Button Square",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
